@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, lazy } from 'react';
 import { fetchMovieDetails } from '../services/api';
 import { Link, Route, useParams, useRouteMatch } from 'react-router-dom';
 
